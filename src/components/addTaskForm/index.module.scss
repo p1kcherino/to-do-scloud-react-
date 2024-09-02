@@ -1,0 +1,35 @@
+@import "../mixins";
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  @include tablet {
+    flex-direction: row-reverse;
+    gap: 15px;
+  }
+}
+
+.button {
+  background-color: #ff6600;
+  border-radius: 50px;
+  color: var(--main-color);
+  font-size: 14px;
+  height: 40px;
+  line-height: 24px;
+  width: 100%;
+  color: #ffffff;
+  @include tablet {
+    display: none;
+  }
+}
+
+.btn {
+  border-radius: 100%;
+  width: 44px;
+  padding: 8px;
+  background-color: #ff6600;
+  display: none;
+  @include tablet {
+    display: block;
+  }
+}

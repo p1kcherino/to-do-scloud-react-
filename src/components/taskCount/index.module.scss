@@ -1,0 +1,10 @@
+@import "../mixins";
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  @include tablet {
+    flex-direction: row;
+    gap: 28px;
+  }
+}

@@ -1,0 +1,42 @@
+@import "./components/_mixins";
+
+#root {
+  margin: 0;
+}
+
+.bg {
+  background-color: #f4f4f4;
+  padding: 32px 16px;
+  @include tablet {
+    padding: 48px 64px 60px 64px;
+  }
+  @include laptop {
+    padding: 64px 82px 60px 82px;
+  }
+}
+
+.bgWhite {
+  padding: 60px 16px 0px 16px;
+  @include tablet {
+    padding: 60px 0px 0px 0px;
+  }
+  @include laptop {
+    padding: 60px 0px 0px 0px;
+  }
+}
+
+.size {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  @include laptop {
+    flex-direction: row;
+    gap: 26px;
+  }
+}

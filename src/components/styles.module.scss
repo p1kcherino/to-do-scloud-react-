@@ -1,0 +1,63 @@
+@import "mixins";
+
+.block {
+  background-color: #ffffff;
+  border-radius: 32px;
+  padding: 24px;
+  margin-bottom: 60px;
+  @include laptop {
+    border-radius: 48px;
+  }
+  .blockTitle {
+    font-size: 18px;
+    margin-bottom: 24px;
+    line-height: 26px;
+    @include laptop {
+      font-size: 24px;
+      line-height: 32px;
+      border-radius: 48px;
+    }
+  }
+  @include laptop {
+    width: 100%;
+    padding: 40px 24px;
+  }
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 48px;
+  @include tablet {
+    font-size: 24px;
+  }
+  @include laptop {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.item {
+  align-items: center;
+  border: 1px solid #eaeaea;
+  border-radius: 50px;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  width: 100%;
+  font-size: 14px;
+}
+
+.input {
+  border: 1px solid #eaeaea;
+  border-radius: 100px;
+  padding: 12px 16px;
+  width: 100%;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #333333;
+}
