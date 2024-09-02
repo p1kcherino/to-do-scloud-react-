@@ -37,9 +37,8 @@ export function App() {
         <div className={styles.size}>
           <ToDoBoard tasks={tasks} taskStatuses={taskStatuses} />
         </div>
-
-        <TodoFooter />
       </div>
+      <TodoFooter />
     </div>
   );
 }

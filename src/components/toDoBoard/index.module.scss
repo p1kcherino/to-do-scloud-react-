@@ -2,6 +2,7 @@
 
 .board {
   display: none;
+  margin-bottom: 60px;
   @include laptop {
     display: block;
   }
