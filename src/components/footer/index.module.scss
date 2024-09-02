@@ -1,5 +1,13 @@
+@import "../mixins";
+
 .footer {
   border-radius: 24px 24px 0 0;
   background-color: #bbb8b6;
   min-height: 80px;
+  @include tablet {
+    min-height: 120px;
+  }
+  @include laptop {
+    min-height: 148px;
+  }
 }
