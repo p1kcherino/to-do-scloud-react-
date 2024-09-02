@@ -41,7 +41,7 @@ export const AddTaskForm = ({ addTask }) => {
           {textButton.text}
         </button>
         <button className={styles.btn} type="submit" onClick={onClickHandler}>
-          <img src="../../../public/plus.svg" />
+          <img src="plus.svg" />
         </button>
       </form>
     </div>

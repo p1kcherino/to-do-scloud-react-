@@ -16,21 +16,21 @@ export const TaskCount = ({ tasks, taskStatuses }) => {
       <h3 className={global.blockTitle}>Текущие задачи</h3>
       <ul className={styles.flex}>
         <li className={global.item}>
-          <img src="../../../public/open.svg" alt="Open" />
+          <img src="open.svg" alt="Open" />
           <span style={{ marginLeft: 8 }}>
             Открыто: {countTasksByStatus("Открыт")}
           </span>
         </li>
 
         <li className={global.item}>
-          <img src="../../../public/inProgress.svg" alt="In Progress" />
+          <img src="inProgress.svg" alt="In Progress" />
           <span style={{ marginLeft: 8 }}>
             В работе: {countTasksByStatus("В работе")}
           </span>
         </li>
 
         <li className={global.item}>
-          <img src="../../../public/closed.svg" alt="Closed" />
+          <img src="closed.svg" alt="Closed" />
           <span style={{ marginLeft: 8 }}>
             Закрыто: {countTasksByStatus("Закрыт")}
           </span>

@@ -38,7 +38,7 @@ export const Popup = ({ task, status, onClose, onDelete, onApply }) => {
         <div className={styles.popup__inner_title}>
           <h5 className={styles.popup__title}>Изменение задачи</h5>
           <button className={styles.popup__close_btn} onClick={onClose}>
-            X
+            х
           </button>
         </div>
         <input
