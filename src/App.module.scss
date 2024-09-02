@@ -16,12 +16,12 @@
 }
 
 .bgWhite {
-  padding: 60px 16px 0px 16px;
+  padding: 0px 16px 0px 16px;
   @include tablet {
-    padding: 60px 64px 0px 64px;
+    padding: 0px 64px 0px 64px;
   }
   @include laptop {
-    padding: 60px 82px 0px 82px;
+    padding: 0px 82px 0px 82px;
   }
 }
 
